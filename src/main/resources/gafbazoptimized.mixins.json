@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "org.gafolagbazor.gafbazoptimized.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DebugScreenOverlayMixin",
+    "WeatherRenderMixin",
+    "VideoSettingsScreenMixin",
+    "CloudRenderMixin",
+    "FogRenderMixin",
+    "EntityRenderMixin",
+    "TextureAtlasRenderMixin",
+    "ParticleRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
